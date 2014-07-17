@@ -21,10 +21,11 @@ gem 'pg'
 gem 'rails_12factor', '0.0.2'
 
 gem 'capistrano'
-gem 'capistrano-bundler'
-gem 'capistrano-rails'
-# Add this if you're using rbenv
-gem 'capistrano-rbenv', github: "capistrano/rbenv"
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+
+gem 'rvm-capistrano'
+
 
 #gem 'puma'
 gem 'unicorn'
