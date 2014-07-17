@@ -26,7 +26,6 @@ gem 'capistrano-rails', '~> 1.1.1'
 
 gem 'capistrano-rvm'
 
-
 #gem 'puma'
 gem 'unicorn'
 

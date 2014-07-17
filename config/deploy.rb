@@ -13,6 +13,7 @@ set :use_sudo, false
 
 set :scm, "git"
 set :branch, "master"
+ssh_options[:forward_agent] = true
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
