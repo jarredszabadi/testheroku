@@ -1,4 +1,4 @@
-root = "/home/deploy/apps/parallax_homepage/current"
+root = "/home/deploy/apps/testHeroku/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
