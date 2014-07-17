@@ -21,8 +21,7 @@ require 'capistrano/rails'
 #   https://github.com/capistrano/rails
 #
  require 'capistrano/rvm'
-  set :rvm_type, :user
- require 'capistrano/rbenv'
+
 # require 'capistrano/chruby'
  require 'capistrano/bundler'
  require 'capistrano/rails/assets'
