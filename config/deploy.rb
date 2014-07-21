@@ -7,7 +7,7 @@ set :deploy_to, '/home/deploy/apps/testHeroku'
 
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
-ssh_options[:forward_agent] = true
+
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
