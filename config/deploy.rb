@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'testheroku'
-set :repo_url, 'git@github.com/jarredszabadi/testheroku.git'
+set :repo_url, 'git@https://www.github.com/jarredszabadi/testheroku.git'
 set :user, 'deploy'
 set :deploy_to, '/home/#{user}/apps/#{application}'
 
