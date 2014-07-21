@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :application, 'testheroku'
+set :application, 'testHeroku'
 set :repo_url, 'https://github.com/jarredszabadi/testheroku.git'
 set :deploy_to, '/home/deploy/apps/testHeroku'
 
@@ -54,9 +54,9 @@ namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
-       within release_path do
-         execute :rake, 'cache:clear'
-       end
+       #within release_path do
+        # execute :rake, 'cache:clear'
+       #end
     end
   end
 
