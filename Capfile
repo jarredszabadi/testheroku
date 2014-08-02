@@ -19,7 +19,7 @@ require 'capistrano/deploy'
 # require 'capistrano/rbenv'
 # require 'capistrano/chruby'
  require 'capistrano/bundler'
- require 'capistran/rails'
+ require 'capistran0/rails'
 # require 'capistrano/rails/assets'
 # require 'capistrano/rails/migrations'
 set :rvm_type, :user
