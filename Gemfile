@@ -30,13 +30,11 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
   # Use unicorn as the app server
-  gem 'unicorn'
-
-  # Deploy with Capistrano
-  gem 'capistrano'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rails'
-  # Add this if you're using rvm
-  gem 'capistrano-rvm', github: "capistrano/rvm"
+  
 end
+
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-rvm', github: "capistrano/rvm"
 
