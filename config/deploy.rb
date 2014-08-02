@@ -2,7 +2,7 @@
 lock '3.1.0'
 
 set :application, 'testHeroku'
-set :repo_url, 'git@https://www.github.com/jarredszabadi/testheroku.git'
+set :repo_url, 'https://www.github.com/jarredszabadi/testheroku.git'
 
 set :deploy_to, '/home/deploy/testHeroku'
 set :linked_files, %w{config/database.yml}
